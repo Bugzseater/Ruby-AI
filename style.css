@@ -81,3 +81,16 @@
   font-size: 15px;
   margin-right: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+      font-size: 1.5rem;
+  }
+  p {
+      font-size: 1rem;
+  }
+  .talk {
+      padding: 8px 16px;
+      font-size: 1rem;
+  }
+}
